@@ -21,6 +21,9 @@ namespace IntroCumulative
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hi Tom, Roger, Jane, Richard, or whoever may be reading this! Thanks.");
+            Console.WriteLine("What were you expecting?  A fully featured cross-platform, enterprise grade");
+            Console.WriteLine("marketing specialty app?  Well you'll have to wait.\n\n");
             Intention myIntent = new Intention { ID = 501, name = "My Intent" };
             Console.WriteLine("Created class:\n" + myIntent.ToString() + " \n" + "ID: " + myIntent.ID + "\n" + "name: " + myIntent.name);
             myIntent.Options();

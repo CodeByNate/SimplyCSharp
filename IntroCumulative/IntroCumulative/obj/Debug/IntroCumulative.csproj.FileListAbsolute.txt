@@ -4,3 +4,9 @@ f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumula
 f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumulative\IntroCumulative\obj\Debug\IntroCumulative.csprojResolveAssemblyReference.cache
 f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumulative\IntroCumulative\obj\Debug\IntroCumulative.exe
 f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumulative\IntroCumulative\obj\Debug\IntroCumulative.pdb
+F:\Users\natew.DESKTOP-FEQ8O5R\Documents\GitHub\SimplyCSharp\IntroCumulative\IntroCumulative\bin\Debug\IntroCumulative.exe.config
+F:\Users\natew.DESKTOP-FEQ8O5R\Documents\GitHub\SimplyCSharp\IntroCumulative\IntroCumulative\bin\Debug\IntroCumulative.exe
+F:\Users\natew.DESKTOP-FEQ8O5R\Documents\GitHub\SimplyCSharp\IntroCumulative\IntroCumulative\bin\Debug\IntroCumulative.pdb
+F:\Users\natew.DESKTOP-FEQ8O5R\Documents\GitHub\SimplyCSharp\IntroCumulative\IntroCumulative\obj\Debug\IntroCumulative.csprojResolveAssemblyReference.cache
+F:\Users\natew.DESKTOP-FEQ8O5R\Documents\GitHub\SimplyCSharp\IntroCumulative\IntroCumulative\obj\Debug\IntroCumulative.exe
+F:\Users\natew.DESKTOP-FEQ8O5R\Documents\GitHub\SimplyCSharp\IntroCumulative\IntroCumulative\obj\Debug\IntroCumulative.pdb

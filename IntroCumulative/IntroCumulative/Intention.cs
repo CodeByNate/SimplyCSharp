@@ -16,6 +16,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Management;
 
 namespace IntroCumulative
 {
@@ -43,9 +44,10 @@ namespace IntroCumulative
                     switch(response)
                     {
                         case 1:
-                            ChangeConsoleColor();
+                            ChangeConsoleBackgroundColor();
                             break;
                         case 2:
+                            ShowSystemInformation();
                             break;
                         case 0:
                             break;
@@ -55,39 +57,39 @@ namespace IntroCumulative
                 else
                 {
                     Console.WriteLine("Selection invalid!");
+                    response = 500;
                 }
             }
 
         }
-        private void ChangeConsoleColor()
+        private void ChangeConsoleBackgroundColor()
         {
             string input;
             bool success = false;
 
             while(!success)
             {
-                Console.Write("Change console color.  Please enter a color to try: ");
+                Console.Write("Change console color.  Please type a color to try: ");
                 input = Console.ReadLine();
                 input = input.ToLower();
-                if (input == "red")
+                //Cycle throught the available console colors.  If there's a match, use it!
+                foreach (string s in Enum.GetNames(typeof(ConsoleColor)))
                 {
-                    Console.BackgroundColor = ConsoleColor.Red;
-                    success = true;
+                    if(s.ToLower() == input)
+                    {
+                        ConsoleColor color = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), s);
+                        if (Enum.IsDefined(typeof(ConsoleColor), color))
+                            Console.BackgroundColor = color;
+                        success = true;
+                    }
+
                 }
-                else if (input == "yellow")
-                {
-                    Console.BackgroundColor = ConsoleColor.Yellow;
-                    success = true;
-                }
-                else if (input == "blue")
-                {
-                   Console.BackgroundColor = ConsoleColor.Blue;
-                    success = true;
-                }
-                else
-                    Console.WriteLine("Sorry, didn't recognize a color");
             }
             
+        }
+        private void ShowSystemInformation()
+        {
+            throw new NotImplementedException();
         }
     }
 }
