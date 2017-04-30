@@ -1,0 +1,6 @@
+f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumulative\IntroCumulative\bin\Debug\IntroCumulative.exe.config
+f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumulative\IntroCumulative\bin\Debug\IntroCumulative.exe
+f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumulative\IntroCumulative\bin\Debug\IntroCumulative.pdb
+f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumulative\IntroCumulative\obj\Debug\IntroCumulative.csprojResolveAssemblyReference.cache
+f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumulative\IntroCumulative\obj\Debug\IntroCumulative.exe
+f:\users\natew.desktop-feq8o5r\documents\visual studio 2017\Projects\IntroCumulative\IntroCumulative\obj\Debug\IntroCumulative.pdb
