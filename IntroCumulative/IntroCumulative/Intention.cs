@@ -30,11 +30,11 @@ namespace IntroCumulative
         public void Options()
         {
 
-            int response = -0;
+            int response = 500;
             while(response !=0)
             {
                 string input;
-                Console.WriteLine("1. Change console color");
+                Console.WriteLine("1. Change console background color");
                 Console.WriteLine("2. Get system information");
                 Console.Write("Please make your selection, or type 0 to exit: ");
                 input = Console.ReadLine();
@@ -43,6 +43,7 @@ namespace IntroCumulative
                     switch(response)
                     {
                         case 1:
+                            ChangeConsoleColor();
                             break;
                         case 2:
                             break;

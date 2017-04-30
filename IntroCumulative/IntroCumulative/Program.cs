@@ -23,6 +23,7 @@ namespace IntroCumulative
         {
             Intention myIntent = new Intention { ID = 501, name = "My Intent" };
             Console.WriteLine("Created class:\n" + myIntent.ToString() + " \n" + "ID: " + myIntent.ID + "\n" + "name: " + myIntent.name);
+            myIntent.Options();
             Console.WriteLine("End of program");
             Console.ReadLine();
         }
